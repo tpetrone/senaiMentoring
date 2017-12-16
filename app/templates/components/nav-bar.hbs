@@ -1,0 +1,14 @@
+<nav>
+  <div class="nav-wrapper">
+    {{side-nav}}
+    {{#link-to 'dashboard' class="brand-logo"}}{{time-wallet}}{{/link-to}}
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="#!"><i class="material-icons">notifications_active</i></a></li>
+      <li>
+        {{#link-to 'dashboard.profile'}}
+          <i class="material-icons">account_circle</i>
+        {{/link-to}}
+      </li>
+    </ul>
+  </div>
+</nav>

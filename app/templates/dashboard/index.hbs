@@ -1,0 +1,31 @@
+{{#link-to 'dashboard.mentoring.new'}}
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">add</i>
+    </a>
+  </div>
+{{/link-to}}
+
+<div class="row">
+  <div class="col s12">
+    {{#link-to 'dashboard.mentoring.given'}}
+    <div class="card-panel menu hoverable">
+      Mentorias disponíveis
+    </div>
+    {{/link-to}}
+  </div>
+  <div class="col s6">
+    {{#link-to 'dashboard.mentoring.scheduled'}}
+      <div class="card-panel menu hoverable">
+        Mentorias agendadas
+      </div>
+    {{/link-to}}
+  </div>
+  <div class="col s6">
+    {{#link-to 'dashboard.mentoring.asked'}}
+    <div class="card-panel menu hoverable">
+      Mentorias solicitadas
+    </div>
+    {{/link-to}}
+  </div>
+</div>
